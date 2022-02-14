@@ -13,9 +13,11 @@ using namespace std;
 int main()
 {
     int num;
+    //num is user input for amount of times program will be looped
     cout << "Input a number: ";
     cin >> num;
     for(int i = 0; i < num; i++){
+    //for loop is used because we know how many times we want to loop
         cout << "I love C++" << endl;
     }
 
